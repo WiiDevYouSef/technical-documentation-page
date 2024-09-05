@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  line-height: 2.5rem;
+}
+
+section {
+  margin: 2rem;
+}
+
+/* navigation  */
+#navbar {
+  font-family: "Outfit", sans-serif;
+  box-sizing: border-box;
+  width: 25%;
+  padding: 10px;
+  border-right: 1px solid gray;
+  position: fixed;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+/*the main document  */
+#main-doc {
+  margin-left: 25%;
+  padding: 15px;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+/* Header style in navigation  */
+#navbar header {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+
+#navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+#navbar li {
+  border-bottom: 1px solid gray;
+}
+
+
+.nav-link {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  color: black;
+}
+
+/* Hover for links */
+.nav-link:hover {
+  background-color: #f0e0e0;
+}
+
+/* Header style in main  */
+#main-doc header {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+/* Code styling */
+code {
+  display: block;
+  background-color: #f0e0e0;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: monospace;
+  line-height: 20px;
+}
+
+a {
+  text-decoration: none;
+  padding: 3px;
+  font-family: cursive;
+}
+
+/*My Name */
+.me {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 1rem;
+}
+
+/* Responsive screens */
+@media only screen and (max-width: 740px) {
+  body {
+    flex-direction: column;
+  }
+
+  #navbar {
+    position: static;
+    width: 100%;
+    height: auto;
+    border-right: none;
+  }
+
+  #main-doc {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  #navbar header {
+    font-size: 1.5em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
