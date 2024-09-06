@@ -10,7 +10,7 @@ A straightforward Technical Documentation Page project created as part of the fr
 📚 Structured Documentation: Organized content for easy navigation and readability.
 
 🌐 Live Demo
-Explore the live project at in proseces.
+Explore the live project at (https://wiidevyousef.github.io/technical-documentation-page/).
 
 🛠️ What I Learned
 
